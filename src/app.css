@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.Count-secund{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.Count-secund span{
+    font-size: 28px;
+}
+
+.Count-secund button{
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.Count-secund-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Count-secund-button .btn1{
+    background-color: #bc00dd;
+}
+
+.Count-secund-button .btn2{
+    background-color: #800e13;
+}
+
+.Count-secund-button .btn3{
+    background-color: #2176ff;
+}
